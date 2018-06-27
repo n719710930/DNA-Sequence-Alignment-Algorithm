@@ -20,7 +20,7 @@ int Min(int a,int b,int c);
 int main(){
 	int i,j,k,a,b;
 	for(k=10;k>1;k--){
-		for(i=k;i>=0;i--){
+	    for(i=k;i>=0;i--){
 			OPT[i][k-2].optnum = getOPT(i,k-2);
 		}
 	    for(j=k-3;j>=0;j--){
