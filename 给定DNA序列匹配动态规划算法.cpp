@@ -4,7 +4,7 @@
 
 struct opt{ 
           opt *p;
-		  int x,y; 
+          int x,y; 
           int optnum; 
       }OPT[11][9];
       
